@@ -1,0 +1,42 @@
+.front {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 60%;
+
+}
+
+.Nav {
+    position: fixed;
+    right: 45px;
+    word-spacing: 30px;
+    color: aliceblue;
+
+
+    margin: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    color:white;
+}
+a:hover{
+    color:aliceblue;
+}
+
+.img_des{
+    position: absolute;
+    bottom:50px;
+    margin-left: 180px;
+}
+h1{
+    color:white;
+    font-size: 50px;
+}
+p{
+    color:white;;
+}
+.btn {
+border-radius: 22px;
+}

@@ -1,0 +1,301 @@
+body {
+  color: #444;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+b {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: black;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d293e;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 225%;
+}
+h2 {
+  font-size: 1.3rem;
+}
+span {
+  color: #28b5c5;
+}
+.white {
+  color: #feffff;
+}
+h1 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: 0 none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* colors */
+.navy {
+  background-color: rgb(31, 34, 228);
+}
+
+/*section-1 */
+
+/* nav */
+
+.nav-link {
+  color: white;
+}
+/* .nav-colored{background-color: $primary;}
+.nav-transparent{background-color: $transparent;} */
+/* main image */
+.filter {
+  filter: brightness(50%);
+}
+
+.opacity{
+  opacity: 60%;
+}
+.opacity:hover{
+  opacity: 100%;
+}
+/* front image */
+.position {
+  top: 41.4%;
+  right: 10%;
+}
+
+.position2 {
+  top: 50%;
+  left: 18%;
+}
+.btn {
+  border-radius: 40px;
+  padding: 11px 30px;
+  margin-left: -5%;
+}
+/* section 2 */
+.grdpadding2 {
+  padding: 16% 2% 0px 2%;
+  margin: 2% 1%;
+}
+
+/* section 4 */
+
+.top-1 {
+  top: 10%;
+  left: 44%;
+}
+
+.top-2 {
+  top: -34%;
+  left: 51%;
+}
+
+
+.grdpadding4 {
+  padding: 5% 5% 5% 5%;
+  margin: 2% 1%;
+}
+
+/* section 5*/
+.slider {
+  padding: 40% 1% 1% 15%;
+}
+
+
+.carousel-indicators li {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 5px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: rgb(209, 205, 205);
+  border-radius: 60%;
+  bottom: -35px;
+}
+
+.carousel-indicators .active {
+  background-color: aqua;
+}
+
+/* section 6*/
+.cls {
+  padding-left: 100px;
+  display: inline-block;
+}
+
+
+
+
+
+.icon{
+  display:inline-block;
+  width: 4rem;
+  height: 4rem;
+  padding: 4%;
+  background-color: #28b5c5;
+  text-align: center;
+  border-radius: 47px;
+  font-size: 31px;
+  color: white;
+}
+
+
+
+
+
+.pricing{
+  width: 100%;
+  padding: 5% 0%;
+  background-color: rgb(9, 9, 68);
+}
+/* testimonial */
+
+.testimonial{margin-bottom: 2%;}
+
+
+.testTop{
+  top: -81%;
+  left: 14%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 44px;
+  margin-top: 30px;
+}
+
+.orange{
+  color: orange;
+}
+
+.slider2{
+  padding: 7% 1% 4% 3%;
+}
+.collaps{
+  height: 10%;
+  width: 50%;
+  margin: 2% auto 22% auto;
+
+}
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+  background-color: rgb(212, 242, 250);
+}
+
+.accordion-button::after {
+ display: none;
+  
+}
+
+.accordion-toggle:hover {
+  text-decoration: none;
+}
+
+.height{
+  height: 60%;
+}
+.form-container {
+  width: 680px;
+  height: 339px;
+  margin-left: 819px;
+  margin-top: -236px;
+
+}
+
+
+/* social icon */
+.faeria {
+  padding: 14px;
+  font-size: 30px;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 1px;
+  border-radius: 76%;
+}
+  
+  .faeria:hover {
+    text-decoration: none;
+      transition: 0.3s;
+      opacity: 80%;
+      font-size: 90%;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram{
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube{
+    background: #dd4b39;
+    color: white;
+  }
+  
+
+
